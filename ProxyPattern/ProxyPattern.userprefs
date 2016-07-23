@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="ProxyPattern/ProxyPattern.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProxyPattern/SourceCode/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProxyPattern/SourceCode/ProxyTestControl.cs">
     <Files>
       <File FileName="ProxyPattern/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="ProxyPattern/SourceCode/Program.cs" Line="11" Column="6" />
+      <File FileName="ProxyPattern/SourceCode/Program.cs" Line="1" Column="1" />
+      <File FileName="ProxyPattern/SourceCode/Subject/ProxyRealSubject.cs" Line="1" Column="1" />
+      <File FileName="ProxyPattern/SourceCode/Subject/ProxySubject.cs" Line="1" Column="1" />
+      <File FileName="ProxyPattern/SourceCode/Subject/ProxyVirtualSubject.cs" Line="1" Column="1" />
+      <File FileName="ProxyPattern/SourceCode/ProxyTestControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
