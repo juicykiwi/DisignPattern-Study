@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{A1919746-480C-4414-8BF6-357C4BADD0E0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>StatePattern</RootNamespace>
+    <AssemblyName>StatePattern</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourceCode\Program.cs" />
+    <Compile Include="SourceCode\AIState\AIState.cs" />
+    <Compile Include="SourceCode\Character\Character.cs" />
+    <Compile Include="SourceCode\CharacterHelper\Position2.cs" />
+    <Compile Include="SourceCode\AIState\AIStateNone.cs" />
+    <Compile Include="SourceCode\AIState\AIStateIdle.cs" />
+    <Compile Include="SourceCode\AIState\AIStateMove.cs" />
+    <Compile Include="SourceCode\AIState\AIStateAction.cs" />
+    <Compile Include="SourceCode\AIState\AIStateDie.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="SourceCode\" />
+    <Folder Include="SourceCode\AIState\" />
+    <Folder Include="SourceCode\Character\" />
+    <Folder Include="SourceCode\CharacterHelper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Document.txt" />
+  </ItemGroup>
+</Project>

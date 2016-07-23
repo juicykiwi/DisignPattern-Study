@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="StatePattern/StatePattern.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StatePattern/SourceCode/Character/Character.cs">
+    <Files>
+      <File FileName="StatePattern/Document.txt" Line="1" Column="1" />
+      <File FileName="StatePattern/SourceCode/Program.cs" Line="18" Column="57" />
+      <File FileName="StatePattern/SourceCode/AIState/AIState.cs" Line="36" Column="54" />
+      <File FileName="StatePattern/SourceCode/Character/Character.cs" Line="52" Column="48" />
+      <File FileName="StatePattern/SourceCode/CharacterHelper/Position2.cs" Line="50" Column="63" />
+      <File FileName="StatePattern/SourceCode/AIState/AIStateNone.cs" Line="11" Column="10" />
+      <File FileName="StatePattern/SourceCode/AIState/AIStateIdle.cs" Line="14" Column="10" />
+      <File FileName="StatePattern/SourceCode/AIState/AIStateMove.cs" Line="14" Column="10" />
+      <File FileName="StatePattern/SourceCode/AIState/AIStateAction.cs" Line="14" Column="10" />
+      <File FileName="StatePattern/SourceCode/AIState/AIStateDie.cs" Line="19" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
