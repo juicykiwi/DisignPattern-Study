@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="IteratorPattern/IteratorPattern.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IteratorPattern/Document.txt">
+    <Files>
+      <File FileName="IteratorPattern/Document.txt" Line="14" Column="27" />
+      <File FileName="IteratorPattern/SourceCode/Program.cs" Line="20" Column="48" />
+      <File FileName="IteratorPattern/SourceCode/Actor/ActorInfo.cs" Line="5" Column="5" />
+      <File FileName="IteratorPattern/SourceCode/Actor/ActorArrayIterator.cs" Line="16" Column="33" />
+      <File FileName="IteratorPattern/SourceCode/Actor/ActorArray.cs" Line="31" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

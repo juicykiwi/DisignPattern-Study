@@ -1,0 +1,5 @@
+/Users/joen0622/Github/DisignPattern-Study/IteratorPattern/IteratorPattern/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/joen0622/Github/DisignPattern-Study/IteratorPattern/IteratorPattern/bin/Debug/IteratorPattern.exe.mdb
+/Users/joen0622/Github/DisignPattern-Study/IteratorPattern/IteratorPattern/bin/Debug/IteratorPattern.exe
+/Users/joen0622/Github/DisignPattern-Study/IteratorPattern/IteratorPattern/obj/x86/Debug/IteratorPattern.exe
+/Users/joen0622/Github/DisignPattern-Study/IteratorPattern/IteratorPattern/obj/x86/Debug/IteratorPattern.exe.mdb
