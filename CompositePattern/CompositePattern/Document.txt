@@ -1,4 +1,18 @@
 ﻿
 [ Composite Pattern ]
 
+< 컴포지트 패턴 >
+개별 객체와 다른 객체들로 구성된 복합 객체 (Composite)를
+동일한 방법으로 다룰 수 있는 패턴
+트리 구조로 계층구조를 이용해 관리하기 수월하다.
 
+
+< 코드 설명 >
+FoodRecipeComponent를 기반으로 복합 객체들을 추가하였다.
+- FoodRecipeBook
+- FoodRecipeMenu
+- FoodRecipeIngredient
+
+트리 형태로 하여 항목들을 추가하였고,
+FoodRecipeBook.Print() 함수를 시작으로
+레시피 전체 정보를 출력한다.

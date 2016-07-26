@@ -35,10 +35,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SourceCode\Program.cs" />
+    <Compile Include="SourceCode\FoodRecipe\FoodRecipeComponent.cs" />
+    <Compile Include="SourceCode\FoodRecipe\FoodRecipeIngredient.cs" />
+    <Compile Include="SourceCode\FoodRecipe\FoodRecipeMenu.cs" />
+    <Compile Include="SourceCode\FoodRecipe\FoodRecipeBook.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="SourceCode\" />
+    <Folder Include="SourceCode\FoodRecipe\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Document.txt" />
