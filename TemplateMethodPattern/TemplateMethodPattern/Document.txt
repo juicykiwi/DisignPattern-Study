@@ -1,0 +1,42 @@
+﻿
+[Template Method Pattern ]
+
+< 템플릿 메소드 패턴 >
+틀이 되는 메소드 안에 알고리즘으로 이루어진
+일련의 메소드 단계들로 골격을 정의하는 패턴
+
+
+< 템플리 메소드 Ex >
+class AbstractClass
+{
+    public void TempleteMethod()
+    {
+        Operation1();
+        Operation2();
+        Hook();
+    }
+
+    protected abstract void Operation1();
+    protected abstract void Operation2();
+    protected virtual void Hook() {}
+}
+
+
+< Hook >
+추상 클래스에서는 선언되었지만 기본 구현만 되어 있거나 아무 기능이 없는 함수
+서브 클래스에서 상황에 따라 다양하게 재정의하여 활용 가능
+
+
+< 코드 설명 >
+
+전사, 마법사 캐릭터의 전투 준비 과정을
+템플릿 메소드 이용하여 정의
+
+BattleJob
+- base class
+- Template Method Pattern : public void PrepareBattle()
+- Hook : protected virtual bool WantTakeItem()
+
+BattleKnight, BattleMagician
+- Sub class
+- 각각 알고리즘의 함수를 재정의
