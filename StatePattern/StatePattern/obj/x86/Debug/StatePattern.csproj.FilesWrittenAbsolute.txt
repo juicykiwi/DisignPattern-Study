@@ -1,5 +1,0 @@
-/Users/joen0622/Github/DisignPattern-Study/StatePattern/StatePattern/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/joen0622/Github/DisignPattern-Study/StatePattern/StatePattern/bin/Debug/StatePattern.exe.mdb
-/Users/joen0622/Github/DisignPattern-Study/StatePattern/StatePattern/bin/Debug/StatePattern.exe
-/Users/joen0622/Github/DisignPattern-Study/StatePattern/StatePattern/obj/x86/Debug/StatePattern.exe
-/Users/joen0622/Github/DisignPattern-Study/StatePattern/StatePattern/obj/x86/Debug/StatePattern.exe.mdb
