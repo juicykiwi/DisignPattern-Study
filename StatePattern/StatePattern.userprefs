@@ -1,17 +1,20 @@
 ﻿<Properties StartupItem="StatePattern/StatePattern.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="StatePattern/SourceCode/Character/Character.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StatePattern/SourceCode/AIWorker/AIWorker.cs">
     <Files>
       <File FileName="StatePattern/Document.txt" Line="1" Column="1" />
-      <File FileName="StatePattern/SourceCode/Program.cs" Line="1" Column="1" />
+      <File FileName="StatePattern/SourceCode/Program.cs" Line="23" Column="55" />
       <File FileName="StatePattern/SourceCode/AIState/AIState.cs" Line="1" Column="1" />
-      <File FileName="StatePattern/SourceCode/Character/Character.cs" Line="1" Column="1" />
+      <File FileName="StatePattern/SourceCode/Character/Character.cs" Line="35" Column="9" />
       <File FileName="StatePattern/SourceCode/CharacterHelper/Position2.cs" Line="1" Column="1" />
       <File FileName="StatePattern/SourceCode/AIState/AIStateNone.cs" Line="1" Column="1" />
       <File FileName="StatePattern/SourceCode/AIState/AIStateIdle.cs" Line="1" Column="1" />
       <File FileName="StatePattern/SourceCode/AIState/AIStateMove.cs" Line="1" Column="1" />
       <File FileName="StatePattern/SourceCode/AIState/AIStateAction.cs" Line="1" Column="1" />
       <File FileName="StatePattern/SourceCode/AIState/AIStateDie.cs" Line="1" Column="1" />
+      <File FileName="StatePattern/SourceCode/AIWorker/AIWorkerManager.cs" Line="49" Column="25" />
+      <File FileName="StatePattern/SourceCode/AIWorker/AIWorker.cs" Line="10" Column="10" />
+      <File FileName="StatePattern/SourceCode/AIWorker/AIWorkerFactory.cs" Line="23" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

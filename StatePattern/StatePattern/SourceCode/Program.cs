@@ -17,10 +17,13 @@ namespace StatePattern
             characterList.Add(new Character("Lucas", 27));
             characterList.Add(new Character("Samuel", 14));
 
-            for (int index = 0; index < characterList.Count; ++index)
+            List<AIWorker> aiWokerList = new AIWorkerFactory().Create(characterList);
+            for (int index = 0; index < aiWokerList.Count; ++index)
             {
-                characterList[index].StartAI();
+                AIWorkerManager.Instance.AddAIWoker(aiWokerList[index]);
             }
+
+            AIWorkerManager.Instance.Start();
 
             while (characterList.Count > 0)
             {
@@ -31,9 +34,9 @@ namespace StatePattern
                         characterList.Remove(characterList[index]);
                     }
                 }
-
-                Thread.Sleep(1000);
             }
+
+            AIWorkerManager.Instance.Stop();
         }
     }
 }

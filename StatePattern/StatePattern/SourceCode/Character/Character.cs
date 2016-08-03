@@ -6,8 +6,6 @@ namespace StatePattern
 {
     public class Character
     {
-        protected bool _isStartedAI = false;
-
         protected int _lifeTime = 0;
         public bool IsAlive { get { return (_lifeTime > 0); } }
 
@@ -17,6 +15,8 @@ namespace StatePattern
         protected Position2 _pos;
 
         protected AIState _currentState = null;
+        public AIState AICurrentState { get { return _currentState; } }
+
         protected Dictionary<AIStateType, AIState> _aiStateDict = new Dictionary<AIStateType, AIState>();
 
         public Character(string name, int lifeTime)
@@ -31,29 +31,6 @@ namespace StatePattern
             _aiStateDict.Add(AIStateType.Die, new AIStateDie(this));
 
             _currentState = _aiStateDict[AIStateType.None];
-        }
-
-        public void StartAI()
-        {
-            if (_isStartedAI == true)
-                return;
-
-            _isStartedAI = true;
-            
-            Thread aiThread = new Thread(new ThreadStart(AIThread));
-            aiThread.Start();
-        }
-
-        public void AIThread()
-        {
-            while (_currentState.StateType != AIStateType.Die)
-            {
-                _currentState.PassingTime();
-                _currentState.CheckCondition();
-                _currentState.RunAction();
-
-                Thread.Sleep(1000);
-            }
         }
 
         public void SetAIState(AIStateType stateType)

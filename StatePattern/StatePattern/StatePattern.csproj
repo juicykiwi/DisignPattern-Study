@@ -43,6 +43,9 @@
     <Compile Include="SourceCode\AIState\AIStateMove.cs" />
     <Compile Include="SourceCode\AIState\AIStateAction.cs" />
     <Compile Include="SourceCode\AIState\AIStateDie.cs" />
+    <Compile Include="SourceCode\AIWorker\AIWorkerManager.cs" />
+    <Compile Include="SourceCode\AIWorker\AIWorker.cs" />
+    <Compile Include="SourceCode\AIWorker\AIWorkerFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -50,6 +53,7 @@
     <Folder Include="SourceCode\AIState\" />
     <Folder Include="SourceCode\Character\" />
     <Folder Include="SourceCode\CharacterHelper\" />
+    <Folder Include="SourceCode\AIWorker\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Document.txt" />
